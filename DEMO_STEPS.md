@@ -12,7 +12,7 @@
     * name: String
     * description: String
     * price: BigDecimal
-* mvn test [45 seconds]
+* mvn test
 * mvn -Pprod package docker:build
 ## Gateway
 * cd ..
