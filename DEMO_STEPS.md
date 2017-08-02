@@ -7,7 +7,7 @@
 * cd catalog
 * yo jhipster
     * Microservice application
-    * Defaults except MySQL dev db
+    * Defaults except MySQL dev db (use Postgres)
 * yo jhipster:entity Product
     * name: String
     * description: String
@@ -20,7 +20,7 @@
 * cd gateway
 * yo hipster
     * Microservice gateway
-    * Defaults except MySQL dev db AND Angular 4
+    * Defaults except MySQL dev db (use Postgres)
 * yo jhipster:entity Product
     * Y
     * ../catalog
