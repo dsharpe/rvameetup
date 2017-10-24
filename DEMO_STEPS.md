@@ -7,7 +7,7 @@
 * cd catalog
 * yo jhipster
     * Microservice application
-    * Defaults except MySQL dev db (use Postgres)
+    * Defaults except MySQL dev db
 * yo jhipster:entity Product
     * name: String
     * description: String
