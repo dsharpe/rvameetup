@@ -12,20 +12,20 @@
     * name: String
     * description: String
     * price: BigDecimal
-* mvn test
-* mvn -Pprod package docker:build
+* mvn test [45 seconds]
+* mvn -Pprod package dockerfile:build
 ## Gateway
 * cd ..
 * mkdir gateway
 * cd gateway
 * yo hipster
     * Microservice gateway
-    * Defaults except MySQL dev db (use Postgres)
+    * Defaults except MySQL dev db
 * yo jhipster:entity Product
     * Y
     * ../catalog
     * Yes, regenerate
-* mvn -Pprod package docker:build
+* mvn -Pprod package dockerfile:build
 ## Docker Compose
 * cd ..
 * mkdir docker-compose
